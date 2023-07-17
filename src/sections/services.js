@@ -10,56 +10,56 @@ import serviceImage5 from 'assets/service-5.png';
 import serviceImage6 from 'assets/service-6.png';
 
 const SERVICES_DATA = [
-  {
-    image: serviceImage1,
-    text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: '3D modeling & art',
-    path: '#',
-  },
+  // {
+  //   image: serviceImage1,
+  //   text:
+  //     'Get your info tests delivered at home collect a sample from the your progress tests.',
+  //   heading: 'Dukungan Online',
+  //   path: '#',
+  // },
   {
     image: serviceImage2,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Digital promotion',
+      'Tenaga ahli yang berpengalaman, pengerjaan baik pemasangan baru & service sudah dipercaya.',
+    heading: 'Profesional',
     path: '#',
   },
   {
     image: serviceImage3,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Business Enterprise',
+      'Kecepatan & Ketepatan ketika memperbaiki mesin offset, Kami sangat mengerti apa yang Anda Inginkan.',
+    heading: 'Pelayanan Terbaik',
     path: '#',
   },
   {
     image: serviceImage4,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Marketing & advertising',
+      'Kepastian Garansi Jelas & sesuai jenis service.',
+    heading: 'Bergaransi',
     path: '#',
   },
   {
     image: serviceImage5,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Ultimate development',
+      'Hasil perbaikan mesin offset dispastikan optimal dengan langsung mengecek hasil cetak oleh mesin yang diservis',
+    heading: 'Hasil Memuaskan',
     path: '#',
   },
-  {
-    image: serviceImage6,
-    text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Online support',
-    path: '#',
-  },
+  // {
+  //   image: serviceImage6,
+  //   text:
+  //     'Get your info tests delivered at home collect a sample from the your progress tests.',
+  //   heading: 'Dukungan Online',
+  //   path: '#',
+  // },
 ];
 const Services = () => {
   return (
     <Box as="section" id="services" sx={styles.services}>
       <Container>
         <BlockTitle
-          title="What the features of product"
-          text="Features are highlighted here"
+          title="Mengapa Harus Kami?"
+          text="Keunggulan Layanan CV Grafika Teknik Mandiri"
         />
         <Grid sx={styles.grid}>
           {SERVICES_DATA.map(({ image, text, heading, path }, index) => (
@@ -82,6 +82,8 @@ export default Services;
 const styles = {
   services: {
     pt: ['80px', null, null, null, '80px', null, '100px'],
+    mt: '-70px',
+    mb: '30px'
   },
   grid: {
     gridGap: '30px',

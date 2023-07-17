@@ -9,14 +9,14 @@ export default [
   },
   {
     path: 'pricing',
-    label: 'Harga',
+    label: 'Tentang Kami',
   },
   {
     path: 'testimonials',
-    label: 'Testimoni',
+    label: 'FAQ',
   },
   {
     path: 'news',
-    label: 'Galery',
+    label: 'Galeri',
   },
 ];

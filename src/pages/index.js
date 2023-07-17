@@ -24,9 +24,9 @@ export default function IndexPage() {
           <Banner />
           <CallToAction />
           <Services />
-          <Jackpot />
           <Featured />
-          <Pricing />
+          <Jackpot />
+          {/* <Pricing /> */}
           {/* <Testimonials /> */}
           <Blogs />
           <FAQ />

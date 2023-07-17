@@ -12,39 +12,39 @@ import blogImage4 from 'assets/blog-1-4.png';
 const BLOG_DATA = [
   {
     image: blogImage1,
-    title: 'How to work with prototype design with adobe xd featuring tools',
+    title: 'Mesin Offset',
     description:
-      'The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design',
+      'Dokumentasi Aktivitas perbaikan mesin offset yang pernah ditangani oleh CV. Grafika Teknik Mandiri ',
     path: '/',
     linkLabel: 'Learn More',
   },
   {
     image: null,
     title:
-      'Antibias receives honorable gift mention at Fast Company’s most Innovation by Design Awards',
+      'Kami memberikan pelayanan perbaikan yang terbaik.',
     description: null,
     path: '/',
     linkLabel: null,
   },
   {
     image: blogImage3,
-    title: 'Multiple task wireframing with team management perform better',
+    title: '',
     description: null,
     path: '/',
     linkLabel: null,
   },
   {
     image: blogImage2,
-    title: 'Multiple art board prototype with Figma',
+    title: 'Kondisi Lapangan',
     description:
-      'Beyond launched antibias, a Chrome extension that replaces LinkedIn profile photos',
+      'Gambaran kondisi mesin offset yang diservis ',
     path: '/',
     linkLabel: 'Learn More',
   },
   {
     image: blogImage4,
     title:
-      'Team presentation with latest user interface & experience reach more',
+      '',
     description: null,
     path: '/',
     linkLabel: null,
@@ -60,8 +60,8 @@ const Blogs = () => {
     <Box as="section" id="news" sx={styles.blogs}>
       <Container>
         <BlockTitle
-          title="Popular blog post we updated"
-          text="Updete newsfeed blog"
+          title="Galeri"
+          text="Dokumentasi CV. Grafika Teknik Mandiri"
         />
         <Box as={Masonry} options={masonryOptions} sx={styles.blogWrapper}>
           {BLOG_DATA.map(
@@ -88,6 +88,7 @@ const styles = {
   blogs: {
     pt: ['80px', null, null, null, '80px', null, '100px'],
     pb: ['40px', null, null, null, '140px', null, '100px'],
+    mt: '90px'
   },
   blogWrapper: {
     mx: '-15px',

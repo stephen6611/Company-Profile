@@ -3,7 +3,7 @@ import React from 'react';
 import { jsx, Box, Text, Container } from 'theme-ui';
 import { Link } from 'components/link';
 import Logo from 'components/logo';
-import logoLight from 'assets/logo_dark.svg';
+import logoLight from 'assets/logo_light.svg';
 export default function Footer() {
   return (
     <Box as="footer" sx={styles.footer}>
@@ -20,13 +20,12 @@ export default function Footer() {
             as="p"
             sx={{
               color: '#ffffff',
-              opacity: '0.7',
+              opacity: '1',
               fontSize: '14px',
               mt: ['10px', null, null, null, null, '0'],
             }}
           >
-            Copyright by {new Date().getFullYear()} RedQ, Inc
-          </Text>
+            Copyright by Kresna Anugrah {new Date().getFullYear()}, CV. Grafika Teknik Mandiri.</Text>
         </Box>
         <Box sx={styles.linksWrap}>
           <Link path="/">Home</Link>

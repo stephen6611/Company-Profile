@@ -6,6 +6,9 @@ import Image from 'components/image';
 import { AiFillDollarCircle, AiFillPieChart } from 'react-icons/ai';
 import { FaBriefcase, FaCog } from 'react-icons/fa';
 import tabImage1 from 'assets/tab-image-1.png';
+import tabImage2 from 'assets/tab-image-2.png';
+import tabImage3 from 'assets/tab-image-3.png';
+import tabImage4 from 'assets/tab-image-4.png';
 import dotPattern from 'assets/dot-pattern.svg';
 
 const Featured = () => {
@@ -43,8 +46,8 @@ const Featured = () => {
     <Box as="section" sx={styles.featured}>
       <Container sx={styles.container}>
         <BlockTitle
-          title="What the features of product"
-          text="Introducing all screen details"
+          title="Mesin Offset yang sering kami servis"
+          text="Sakurai Oliver, Hamada, Komori, Ryobi"
         />
         <Box sx={styles.tabButtonTopWrapper}>
           <Box sx={styles.tabButtonWrapper}>
@@ -52,29 +55,29 @@ const Featured = () => {
               onClick={() => handleTab('budget')}
               className={`${tab.active === 'budget' ? 'active' : ''}`}
             >
-              <AiFillDollarCircle />
-              Budget Overview
+              <FaCog />
+              OLIVER 66EZ
             </Button>
             <Button
               onClick={() => handleTab('adjust')}
               className={`${tab.active === 'adjust' ? 'active' : ''}`}
             >
               <FaCog />
-              Create & adjust
+              OLIVER 72
             </Button>
             <Button
               onClick={() => handleTab('report')}
               className={`${tab.active === 'report' ? 'active' : ''}`}
             >
               <AiFillPieChart />
-              View Reports
+              OLIVER 272 E II
             </Button>
             <Button
               onClick={() => handleTab('create')}
               className={`${tab.active === 'create' ? 'active' : ''}`}
             >
               <FaBriefcase />
-              Create & adjust
+              Ryobi 520
             </Button>
           </Box>
         </Box>
@@ -83,13 +86,13 @@ const Featured = () => {
             <Image src={tabImage1} alt="tab image" className="tabImage" />
           )}
           {tab.active === 'create' && (
-            <Image src={tabImage1} alt="tab image" className="tabImage" />
+            <Image src={tabImage4} alt="tab image" className="tabImage" />
           )}
           {tab.active === 'adjust' && (
-            <Image src={tabImage1} alt="tab image" className="tabImage" />
+            <Image src={tabImage2} alt="tab image" className="tabImage" />
           )}
           {tab.active === 'report' && (
-            <Image src={tabImage1} alt="tab image" className="tabImage" />
+            <Image src={tabImage3} alt="tab image" className="tabImage" />
           )}
         </Box>
       </Container>

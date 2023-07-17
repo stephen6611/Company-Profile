@@ -7,71 +7,51 @@ import Accordion from 'components/accordion/accordion';
 const accordionData = [
   {
     isExpanded: false,
-    title: 'How much does it cost to be a credit card merchant?',
+    title: 'Berapa lama sebaiknya dilakukan perawatan mesin cetak?',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Perawatan dilakukan ada yg besifat harian mingguan dan bulanan.
+        Kalau yg harian di antaranya kalau mesin yg sudah memakai cheeler atau pendingin air. Sebaik nya dilakukan penggantian air tiap hari. Untuk menjaga kualitas cetakan. Paling tidak menambah air karena sudah dipakai seharian untuk produksi. Jadi pasti berkurang.
+        Kebersihan mesin menjadi kunci utama kualitas hasil cetakan.
+        Maka dengan itu setelah mesin di pakai seharian harus di bersihkan. Di antaranya rol tinta setelah selesai kerja harus di cuci bersih dari tinta yang dipakai produksi. 
       </div>
     ),
   },
   {
     isExpanded: true,
-    title: 'How can I open a merchant account?',
+    title: 'Bagaimana cara mengetahui kerusakan mesin?',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Yaitu berdasar kan keluhan dari oprator di antaranya. Warna tidak stabil Presisi hasil nya berubah atau meleset atau kelistrikan yang tidak berfungsi atau spare part kelistrikan ada yg rusak. Sehingga mempengaruhi kinerja mesin secara keseluruhan.
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: 'How long does the application take?',
+    title: 'Berapa perkiraan biaya untuk servis mesin offset?',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Biaya service di hitung berdasarkan jasanya saja. Adapun biaya transport akomodasi termasuk hotel kalau keluar kota sepenuhnya di tanggung perusahaan pemakai jasa.
+        <br></br>
+        <a></a>
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: 'Can I make payment outside of Hong Kong?',
+    title: 'Apakah ada garansi setelah mesin telah diservis?',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Tentu kami memberikan garansi perbaikan setelah servis tergantung dengan kerusakan dan jenis mesinnya, paling lama kami memberikan garansi 1 bulan setelah servis.
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: 'How do I get the payment complete?',
+    title: 'Apakah pelayanan servis mesin offset melayani diluar Jabodetabek?',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Pilihan lokasi layanan servis untuk wilayah Jabodetabek, luar jabodetabek. kami sudah berpengalaman puluhan tahun, kami juga bisa datang ke seluruh indonesia. Silahkan menghubungi dengan mengklik kontak, kamu akan di hubungkan langsung ke whatsapp teknisi kami.
       </div>
     ),
   },
@@ -83,7 +63,7 @@ const FAQ = () => {
       <Container>
         <BlockTitle
           title="Frequently Ask Question"
-          text="Ask your question and meet"
+          text="Ajukan pertanyaan Anda"
         />
         <Flex sx={styles.flex}>
           <Box sx={styles.faqWrapper}>
@@ -91,14 +71,13 @@ const FAQ = () => {
           </Box>
           <Box sx={styles.content}>
             <Heading as="h3">
-              Do you have any quesiton? Please ask here we ready to support
+            Ada pertanyaan lain yang belum terjawab? Silahkan tanyakan!
             </Heading>
             <Text as="p">
-              If your question is not list here, please feel free to make a
-              manual support.
+            Jika pertanyaan Anda tidak tercantum di sini, silahkan kontak kami.
             </Text>
             <Link sx={styles.askButton} path="#">
-              Ask your Question
+              Kontak Kami
             </Link>
           </Box>
         </Flex>

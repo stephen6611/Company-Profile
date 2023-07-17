@@ -17,7 +17,7 @@ const CallToAction = () => {
             CV. Grafika Teknik Mandiri merupakan perusahaan yang bergerak di bidang jasa service mesin cetak offset terbaik di Jakarta. CV. Grafika Teknik Mandiri Melayani Jasa Perbaikan Mesin cetak offset untuk Perkantoran, dan lain-lain.
             </Text>
             <Link path="#" sx={styles.button}>
-              Explore More
+              Jelajahi Lebih Lanjut
             </Link>
           </Box>
           <Box sx={styles.images}>

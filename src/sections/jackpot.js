@@ -10,14 +10,14 @@ const JACKPOT_DATA = [
   {
     image: jackpotImage1,
     text:
-      'GTe your blood tests delivered at let home collect sample from the victory of the managments your blood tests.',
+      'Mengembalikan dan menyempurnakan kembali kinerja mesin offset/cetak anda seperti semula.',
     heading: 'Visi',
   },
   {
     image: jackpotImage2,
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managments your blood tests.',
-    heading: 'Secure Contents',
+      'Menyediakan solusi terbaik untuk mesin offset anda yang rusak dengan ketersediaan teknisi kami yang sudah 20 tahun  berpengalaman dalam mengangani perbaikan mesin offset/cetak.',
+    heading: 'Misi',
   },
 ];
 
@@ -26,8 +26,8 @@ const Jackpot = () => {
     <Box as="section" sx={styles.jackpot}>
       <Container>
       <BlockTitle
-          title="Sample"
-          text="Jasa Services Mesin Offset"
+          title="Tentang Kami"
+          text="Pelayanan Jasa Servis Mesin Offset"
         />
         <Flex sx={styles.flex}>
           <Box sx={styles.image}>
@@ -60,6 +60,7 @@ export default Jackpot;
 const styles = {
   jackpot: {
     pt: ['65px', null, null, null, '85px', null, '125px'],
+    mt: '40px'
   },
   flex: {
     flexWrap: 'wrap',

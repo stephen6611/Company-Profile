@@ -59,7 +59,7 @@ const Banner = () => {
         />
 
         <Image sx={styles.logo} src={logoImage} alt="logo image" />
-        <Heading as="h2">Jasa Services Mesin Cetak</Heading>
+        <Heading as="h2">Pelayanan Jasa Servis Mesin Offset/Cetak</Heading>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
     </Box>

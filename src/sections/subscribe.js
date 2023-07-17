@@ -5,22 +5,22 @@ const Subscribe = () => {
   return (
     <Box as="section" sx={styles.subscribe}>
       <Container>
-        <Heading as="h3">Subscribe to get notified about event</Heading>
+        <Heading as="h3">Berlangganan untuk mendapatkan pemberitahuan tentang kami</Heading>
         <Text as="p">
-          By subscribing with your mail, you will accept our privacy policy
+        Dengan berlangganan email Anda, Anda akan menerima kebijakan privasi kami.
         </Text>
         <Box as="form" sx={styles.form}>
           <Box as="label" htmlFor="subscribeEmail" variant="styles.srOnly">
             Email
           </Box>
           <Input
-            placeholder="Enter your email"
+            placeholder="Masukan E-mail Anda"
             type="email"
             id="subscribeEmail"
             sx={styles.input}
           />
           <Button type="submit" sx={styles.button}>
-            Subscribe us
+            Langganan
           </Button>
         </Box>
       </Container>

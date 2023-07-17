@@ -35,7 +35,7 @@ export default function Header({ className }) {
           <Link
             path="/"
             ml={2}
-            label="Pesan Sekarang"
+            label="Login"
             sx={styles.headerBtn}
             variant="buttons.primary"
           />
